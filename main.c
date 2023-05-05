@@ -3,6 +3,17 @@
 #include <string.h>
 
 int main() {
-    printf("Hello World!\n");
+    int i, j;
+    double a, b, resultado = 1;
+
+    printf("a = ");
+    scanf("%lf", &a);
+    printf("b = ");
+    scanf("%lf", &b);
+    j = (int)b;
+    for(i = 0; i < (int)b; i++) {
+        resultado *= a;
+    }
+    printf("a ^ b = %.2lf (b aproximado para: %i)\n", resultado, (int)b);
     return 0;
 }
