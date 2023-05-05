@@ -1,0 +1,2 @@
+# potenciacao
+potenciacao
